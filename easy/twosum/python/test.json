@@ -1,0 +1,7 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [[10, 12,31, 90, 1], 91],
+        "outputs": [3, 4]
+    }]
+}

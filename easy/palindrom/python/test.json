@@ -1,0 +1,19 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [121],
+        "outputs": [true]
+    }, {
+        "inputs": [122],
+        "outputs": [false]
+    }, {
+        "inputs": [-121],
+        "outputs": [false]
+    }, {
+        "inputs": [-123],
+        "outputs": [false]
+    }, {
+        "inputs": [121121],
+        "outputs": [true]
+    }]
+}

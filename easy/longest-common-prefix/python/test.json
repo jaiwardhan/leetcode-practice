@@ -1,0 +1,19 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": ["flower"],
+        "outputs": ["flower"]
+    }, {
+        "inputs": ["flower","flow","flight"],
+        "outputs": ["fl"]
+    }, {
+        "inputs": ["dog","racecar","car"],
+        "outputs": [""]
+    }, {
+        "inputs": ["flower", "flower"],
+        "outputs": ["flower"]
+    }, {
+        "inputs": ["a"],
+        "outputs": ["a"]
+    }]
+}

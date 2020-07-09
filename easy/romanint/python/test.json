@@ -1,0 +1,25 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": ["I"],
+        "outputs": [1]
+    }, {
+        "inputs": ["IV"],
+        "outputs": [4]
+    }, {
+        "inputs": ["VII"],
+        "outputs": [7]
+    }, {
+        "inputs": ["XL"],
+        "outputs": [40]
+    }, {
+        "inputs": ["XXX"],
+        "outputs": [30]
+    }, {
+        "inputs": ["LVIII"],
+        "outputs": [58]
+    }, {
+        "inputs": ["MCMXCIV"],
+        "outputs": [1994]
+    }]
+}

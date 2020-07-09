@@ -1,0 +1,19 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": ["()"],
+        "outputs": [true]
+    }, {
+        "inputs": [""],
+        "outputs": [true]
+    }, {
+        "inputs": ["()[]{}"],
+        "outputs": [true]
+    }, {
+        "inputs": ["(]"],
+        "outputs": [false]
+    }, {
+        "inputs": ["{[()]}"],
+        "outputs": [true]
+    }]
+}
