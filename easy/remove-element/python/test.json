@@ -1,0 +1,25 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [[3,2,2,3], 3],
+        "outputs": [2]
+    }, {
+        "inputs": [[0,1,2,2,3,0,4,2], 2],
+        "outputs": [5]
+    }, {
+        "inputs": [[3], 3],
+        "outputs": [0]
+    }, {
+        "inputs": [[3], 2],
+        "outputs": [1]
+    }, {
+        "inputs": [[4, 5], 4],
+        "outputs": [1]
+    }, {
+        "inputs": [[1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 5], 2],
+        "outputs": [4]
+    }, {
+        "inputs": [[4,4,4,4,4,4,4,4], 4],
+        "outputs": [0]
+    }]
+}

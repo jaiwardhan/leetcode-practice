@@ -1,0 +1,16 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [1,1,2],
+        "outputs": [2]
+    }, {
+        "inputs": [1],
+        "outputs": [1]
+    }, {
+        "inputs": [1,2,3],
+        "outputs": [3]
+    }, {
+        "inputs": [0,0,1,1,1,2,2,3,3,4],
+        "outputs": [5]
+    }]
+}

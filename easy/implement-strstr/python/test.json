@@ -1,0 +1,16 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": ["hello", "ll"],
+        "outputs": [2]
+    }, {
+        "inputs": ["hello", "mm"],
+        "outputs": [-1]
+    }, {
+        "inputs": ["hello", "hellom"],
+        "outputs": [-1]
+    }, {
+        "inputs": ["mississippi", "issip"],
+        "outputs": [4]
+    }]
+}
