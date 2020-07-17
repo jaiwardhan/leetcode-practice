@@ -1,0 +1,8 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": ["Hello World   "],
+        "outputs": [5]
+    }],
+    "debug_tests": []
+}
