@@ -1,0 +1,26 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [1],
+        "outputs": [1]
+    }, {
+        "inputs": [144],
+        "outputs": [12]
+    }, {
+        "inputs": [169],
+        "outputs": [13]
+    }, {
+        "inputs": [200],
+        "outputs": [14]
+    }, {
+        "inputs": [10000],
+        "outputs": [100]
+    }, {
+        "inputs": [2],
+        "outputs": [1]
+    }, {
+        "inputs": [3],
+        "outputs": [1]
+    }],
+    "debug_tests": []
+}
