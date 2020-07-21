@@ -40,8 +40,9 @@ class Solution(object):
             return None
         last = head
         while last is not None and last.next is not None:
-            if last.next.val == last.val:
-                # duplicate
-                last.next = last.next.next
-            last = last.next
+            tail = last.next
+            while tail is not None and tail.val == last.val:
+                tail = tail.next
+            last.next = tail
+            last = tail
         return head
