@@ -1,0 +1,20 @@
+{
+    "description": "This is a test-case suite",
+    "tests": [{
+        "inputs": [[10,2,-10,5,20], 2],
+        "outputs": [37]
+    }, {
+        "inputs": [[-1,-2,-3], 1],
+        "outputs": [-1]
+    }, {
+        "inputs": [[10,-2,-10,-5,20], 2],
+        "outputs": [23]
+    }, {
+        "inputs": [[4681,6466,9411,-5130,6047], 3],
+        "outputs": [26605]
+    }, {
+        "inputs": [[-5266,4019,7336,-3681,-5767], 2],
+        "outputs": [11355]
+    }],
+    "debug_tests": []
+}

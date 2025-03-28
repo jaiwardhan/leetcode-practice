@@ -78,21 +78,21 @@ class TestDriver:
 
         for i,t in enumerate(to_test):
             time_start = time.time()
-            # use t["inputs"][0] etc to pass parameters
-            # use t["outputs"][0] etc to compare with outputs
-            # Set expected = t["outputs"][0] etc and to ensure logging
-            # Set found as result of solution and to ensure logging
             ##### your execution here #####
-
-
+            res = s.maxFrequency(t["inputs"][0], t["inputs"][1])
             ###############################
             time_end = time.time()
+            expected = t["outputs"][0]
+            if res == expected :
+                self.test_pass(i, time_start, time_end)
+            else:
+                self.test_fail(i, expected, res)
 
             # if test passes
             # self.test_pass(i, time_start, time_end)
 
             # if test fails
-            # self.test_fail(i, expected, found)
+            # self.test_fail(i, expected, found, time_start, time_end)
         self.test_verdict()
 
 t = TestDriver()

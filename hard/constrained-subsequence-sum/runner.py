@@ -82,11 +82,15 @@ class TestDriver:
             # use t["outputs"][0] etc to compare with outputs
             # Set expected = t["outputs"][0] etc and to ensure logging
             # Set found as result of solution and to ensure logging
+            expected = t["outputs"][0]
             ##### your execution here #####
-
-
+            found = s.constrainedSubsetSum(t["inputs"][0], t["inputs"][1])
             ###############################
             time_end = time.time()
+            if found == expected:
+                self.test_pass(i, time_start, time_end)
+            else:
+                self.test_fail(i, expected, found)
 
             # if test passes
             # self.test_pass(i, time_start, time_end)
